@@ -11,21 +11,21 @@
 
     <!--Cabeçalho-->
     <header>
-        <a href="">
-            <img src="img/sanduiche.png" alt="">
-        </a>
+
+        <img src="img/sanduiche.png" alt="">
+
         <nav>
-            <a href="">
-                <img src="img/lupa.png" alt="">
-            </a>
-            <a href="">
+
+            <img src="img/lupa.png" alt="">
+            <input type="search" name="Busque aqui">
+            <a href="#">
                 <img src="img/perfil.png" alt="">
             </a>
         </nav>
     </header>
 
     <!--Menu sanduiche-->
-    <nav>
+    <aside>
         <ul>
             <li>
                 <a href="index.html">
@@ -70,11 +70,58 @@
                 </a>
             </li>
         </ul>
-    </nav>
+    </aside>
+
     <!--Conteudo principal-->
     <main>
 
+        <!--Canva para exibir percentual de conclusão-->
+        <canvas>
+            <img src="img/progresso.svg" alt="">
+        </canvas>
+
+        <!--Destaque para exibir 3 videos -->
+        <ul>
+            <li>
+                <iframe src="https://www.youtube.com/embed/O5F-aJu4BJw?si=soCSiof8SPvZ7nCe" title="YouTube video player">
+                </iframe>
+            </li>
+            <li>
+                <iframe src="https://www.youtube.com/embed/O5F-aJu4BJw?si=soCSiof8SPvZ7nCe" title="YouTube video player">
+                </iframe>
+            </li>
+            <li>
+                <iframe src="https://www.youtube.com/embed/O5F-aJu4BJw?si=soCSiof8SPvZ7nCe" title="YouTube video player">
+                </iframe>
+            </li>
+        </ul>
+
+        <!--Seção de conteudos aprendidos-->
+        <section>
+            <h2>Conteudos</h2>
+            <ul>
+                <li>
+                    <a href="conteudos/1_lei_de_ohm.html">
+                        <h3>Primeira lei de Ohm</h3>
+                        <img src="img/barraprogresso.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Segunda lei de Ohm</h3>
+                        <img src="img/barraprogresso.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Associação de resistores</h3>
+                        <img src="img/barraprogresso.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </section>
     </main>
+
     <!--Rodapé com menu de navegação-->
     <footer>
         <nav>
