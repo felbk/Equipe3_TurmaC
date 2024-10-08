@@ -1,4 +1,38 @@
-html{
+html,nav{
 	height: 100%;
 	width: 100%;
+}
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 0.1rem solid black;
+	margin-bottom: 2rem;
+}
+
+a{
+	height: 10%;
+	width: 10%;
+}
+img{
+	min-width: 20px;
+	max-width: 25px;
+}
+.cabecalho{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 0.1rem solid black;
+	margin-top: 2rem;
+}
+.rodape{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
