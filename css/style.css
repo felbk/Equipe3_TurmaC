@@ -14,7 +14,16 @@ img{
 	min-width: 20px;
 	max-width: 25px;
 }
+aside{
+	display: none;
+}
+
+
+
 header{
+	position: sticky;
+	top: 0;
+	background-color: white;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -30,11 +39,15 @@ header{
 	align-items: center;
 }
 footer{
+	position: sticky;
+	bottom: 0;
+	background-color: white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	border-top: 0.1rem solid black;
 	margin-top: 2rem;
+
 }
 .rodape{
 	display: flex;
@@ -48,10 +61,36 @@ footer{
 	align-items: flex-start;
 	margin: 2rem;
 }
-section{
+section.conteudo{
 	margin: 2rem;
 	padding: 1rem;
 	background-color: rgba(6, 6, 248, 0.397);
 	border-radius: 8%;
 	
+	
 }
+.Progress-Canvas{
+	display: flex;
+	margin: auto;
+	margin-top: 1rem;
+	width: 90%;
+	background-color: lightgrey;
+	border-radius: 5%;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-explorar{
+	display: flex;
+	margin: auto;
+	width: 80%;
+	justify-content: center;
+	align-items: center;
+}
+.container-explorar>ul{
+	display: flex;
+	overflow-x: scroll;
+	width: 50%;
+
+}
+
