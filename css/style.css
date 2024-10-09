@@ -8,7 +8,6 @@ body{
 	justify-content: space-between;
 }
 a{
-	height: 10%;
 	width: 10%;
 }
 img{
@@ -22,7 +21,9 @@ header{
 	align-items: center;
 	border-bottom: 0.1rem solid black;
 	margin-bottom: 2rem;
+	padding: 0.5rem;
 }
+
 .cabecalho{
 	display: flex;
 	justify-content: flex-end;
