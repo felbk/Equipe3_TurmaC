@@ -11,6 +11,8 @@ a{
 img{
 	min-width: 20px;
 	max-width: 25px;
+	margin: 0 0.5rem 0 0.5rem;
+
 }
 aside{
 	display: none;
@@ -69,8 +71,9 @@ section.conteudo{
 	
 	padding: 1rem;
 	background-color: rgba(6, 6, 248, 0.397);
-	border-radius: 8%;
+	border-radius: 3%;
 	width: 50%;
+	margin: 0.5rem;
 	
 	
 }
@@ -136,6 +139,11 @@ section.conteudo{
 	margin: auto;
 	margin-bottom: 0.5rem;
 	border-radius: 1rem;
+	justify-items: center;
+	align-items: center;
+}
+.Dados {
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -154,6 +162,30 @@ section.conteudo{
 	justify-content: center;
 	align-items: center;
 	width: 90%;
+	margin: auto;
+}
+.img-aula{
+
+	display: flex;
+	flex-wrap: wrap;
+	width: 90vw;
+	margin: auto;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.img-aula>img{
+	
+	margin: auto;
+	transform: scaleX(500%);
+	height: 150px;
+	
+}
+.aula h2 , .aula p{
+	margin: 1rem;
+}
+.aula h2{
+	font-size: 1.5rem;
 }
 
 .topico li {
@@ -176,3 +208,18 @@ section.conteudo{
 	color: black;
 }
 
+
+.graficoDeDados {
+	min-width: 10rem;
+	max-width: 12px;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.botaoDesempenhoSemanal{
+	background-color: blue;
+	color: white;
+	padding: 0.2rem;
+	border-radius: 5%;
+	margin-bottom: 2rem;
+}
