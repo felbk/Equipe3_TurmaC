@@ -11,6 +11,8 @@ a{
 img{
 	min-width: 20px;
 	max-width: 25px;
+	margin: 0 0.5rem 0 0.5rem;
+
 }
 aside{
 	display: none;
@@ -64,8 +66,9 @@ section.conteudo{
 	
 	padding: 1rem;
 	background-color: rgba(6, 6, 248, 0.397);
-	border-radius: 8%;
+	border-radius: 3%;
 	width: 50%;
+	margin: 0.5rem;
 	
 	
 }
