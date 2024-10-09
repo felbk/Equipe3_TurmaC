@@ -116,3 +116,25 @@ section.conteudo{
 	
 }
 
+.Dados {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.graficoDeDados {
+	min-width: 10rem;
+	max-width: 12px;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.botaoDesempenhoSemanal{
+	background-color: blue;
+	color: white;
+	padding: 0.2rem;
+	border-radius: 5%;
+	margin-bottom: 2rem;
+}
