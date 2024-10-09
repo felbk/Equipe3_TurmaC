@@ -3,9 +3,7 @@ html,nav, body{
 	width: 100%;
 }
 body{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	height: 100%;
 }
 a{
 	width: 10%;
@@ -39,8 +37,9 @@ header{
 	align-items: center;
 }
 footer{
-	position: sticky;
+	position: fixed;
 	bottom: 0;
+	width: 100%;
 	background-color: white;
 	display: flex;
 	justify-content: center;
@@ -62,35 +61,55 @@ footer{
 	margin: 2rem;
 }
 section.conteudo{
-	margin: 2rem;
+	
 	padding: 1rem;
 	background-color: rgba(6, 6, 248, 0.397);
 	border-radius: 8%;
+	width: 50%;
 	
 	
 }
 .Progress-Canvas{
 	display: flex;
 	margin: auto;
-	margin-top: 1rem;
+	margin-top: rem;
 	width: 90%;
 	background-color: lightgrey;
 	border-radius: 5%;
 	justify-content: center;
 	align-items: center;
 }
+.Progress-Canvas>img{
+	display: block;
+
+}
 
 .container-explorar{
 	display: flex;
 	margin: auto;
-	width: 80%;
+	margin-top: 1rem;
+	width: 90%;
 	justify-content: center;
 	align-items: center;
+	gap: 1rem;
 }
 .container-explorar>ul{
 	display: flex;
 	overflow-x: scroll;
 	width: 50%;
-
+	gap: 1rem;
+	flex-wrap: nowrap;
+	background-color: lightgrey;
+	padding: 1rem;
+	border-radius: 8%;
+	flex-grow: 1;
+}
+.container-explorar>ul>li {
+	height: 100%;
+	
+}
+.container-explorar iframe{
+	height: 100%;
+	
 }
 
