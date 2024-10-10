@@ -5,9 +5,14 @@
 	--verde-claro:rgb(157,255,128);
 	--amarelo:rgb(255,247,128);
   }
+@font-face {
+	font-family: "montserrat-variablefont";
+	src: url(EDUINO\Fontes\Montserrat-VariableFont_wght.ttf);
+}
 html,nav, body{
 	height: 100%;
 	width: 100%;
+	font-family: "monserrat-variablefont", sans-serif;
 }
 body{
 	height: 100%;
