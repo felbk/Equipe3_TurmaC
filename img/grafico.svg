@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-	 viewBox="0 0 512 512" xml:space="preserve">
-<rect y="304.849" style="fill:#939393;" width="132.853" height="169.759"/>
-<rect x="189.574" y="174.553" style="fill:#E21B1B;" width="132.853" height="300.056"/>
-<rect x="379.147" y="37.39" width="132.853" height="437.22"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200px" height="200px" viewBox="0 0 200 200" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(57.647061%,57.647061%,57.647061%);fill-opacity:1;" d="M 0 119.082031 L 51.894531 119.082031 L 51.894531 185.394531 L 0 185.394531 Z M 0 119.082031 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(88.627452%,10.588235%,10.588235%);fill-opacity:1;" d="M 74.050781 68.183594 L 125.949219 68.183594 L 125.949219 185.394531 L 74.050781 185.394531 Z M 74.050781 68.183594 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 148.105469 14.605469 L 200 14.605469 L 200 185.394531 L 148.105469 185.394531 Z M 148.105469 14.605469 "/>
+</g>
 </svg>
