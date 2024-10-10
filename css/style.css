@@ -104,11 +104,7 @@ section.conteudo{
 .Progress-Canvas>img{
 	width: 100%;
 	margin: 6rem;
-	height: max-content;
-	transform: scale(500%);
 	border-radius: 1rem;
-	
-
 }
 
 .container-explorar{
@@ -189,8 +185,7 @@ section.conteudo{
 .img-aula>img{
 	
 	margin: auto;
-	transform: scaleX(500%);
-	height: 150px;
+
 	
 }
 .aula h2 , .aula p{
@@ -249,6 +244,7 @@ section.conteudo{
 	padding: 0.5rem;
 	border: 0.2rem solid black;
 	border-radius: 1rem;
+	margin-bottom: 3rem;
 }
 
 .exercicio h2{
@@ -285,6 +281,10 @@ section.conteudo{
 	width: 4rem;
 
 }
+.exercicio img{
+	min-width: 100px;
+	max-width: 200px;
+}
 
 .chat{
 	height: 100%;
@@ -299,6 +299,41 @@ section.conteudo{
 	justify-content: center;
 	bottom: 5%;
 }
-.pesquisa_chat input{
-
+.main-simulation{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	width: 90%;
+	height: 80%;
+	margin: auto;
+}
+.simulation-area{
+	width: 100%;
+	height: 80%;
+	background-color: var(--amarelo);
+	margin: auto;
+	border: 0.1rem solid black;
+	border-radius: 1rem;
+	
+}
+.componentes{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.componentes ul{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 90%;
+	gap: 2rem;
+	padding: 0.5rem;
+	border: 0.1rem solid black;
+	border-radius: 1rem;
+}
+.componentes li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
