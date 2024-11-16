@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded",function(){
                 alert("O arduino é incrível! Mas deixe para usá-lo quando avançar um pouco mais nas lições básicas...")
                 }
                 else if (element.id == "botao" || element.id == "potenciometro"){
-                    alert("Controlar a corrente será incrível no futuro, mas por hora não...")
+                    alert("Controlar a corrente será incrível no futuro, mas por agora não...")
                 }
                 else{
                     
