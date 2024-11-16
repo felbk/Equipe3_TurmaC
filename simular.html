@@ -7,12 +7,14 @@
     <title>Simular</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/Simu.js"></script>
+    <script src="js/voltar.js"></script>
 </head>
 
 <body>
 
     <header>
-        <a href="index.html"><img src="img/voltar.png" alt="Seta de Voltar"></a>
+        <a id="voltar" href="#"><img src="img/voltar.png" alt="Seta de Voltar"></a>
 
         <h1>Simular</h1>
 
@@ -36,31 +38,31 @@
         <section class="componentes">
             <h2>Componentes</h2>
             <ul>
-                <li>
+                <li class="componente" draggable="true" id="potenciometro">
                     <img src="img/potenciometro.png" alt="img Potenciometro">
                     <p>Potenciometro</p>
                 </li>
-                <li>
+                <li class="componente" draggable="true" id="botao">
                     <img src="img/botao.png" alt="img Botao">
                     <p>Botao</p>
                 </li>
-                <li>
+                <li class="componente" draggable="true" id="protoboard">
                     <img src="img/protoboard-svgrepo-com.png" alt="img Protoboard">
                     <p>Protoboard</p>
                 </li>
-                <li>
+                <li class="componente" draggable="true" id="arduino">
                     <img src="img/arduino.png" alt="img Arduino">
                     <p>Arduino</p>
                 </li>
-                <li>
+                <li class="componente" draggable="true" id="arduino">
                     <img src="img/led.png" alt="img LED">
                     <p>LED</p>
                 </li>
-                <li>
+                <li class="componente" draggable="true" id="bateria">
                     <img src="img/bateria.png" alt="img Bateria">
                     <p>Bateria</p>
                 </li>
-                <li>
+                <li class="componente" draggable="true" id="resistor">
                     <img src="img/resistor.png" alt="img Resistor">
                     <p>Resistor</p>
                 </li>
