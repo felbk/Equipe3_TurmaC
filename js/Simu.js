@@ -16,7 +16,7 @@ function analisaSimulacao(ids = Array){
         alert("Energia... aquilo que move tudo, Insira uma fonte ou bateria em seu circuito para gerar DDP...");
     }
     else if (ids.length == 2){
-        alert("Temos DDP, definitivamente! Porém se quiser fazer algo com ela insira mais componentes e vamos")
+        alert("Temos DDP, definitivamente! Porém se quiser fazer algo com ela insira mais componentes e vamos aprender!")
     }
     else if((ids.includes("led")) && (ids.includes("resistor") == false) ){
         alert ("A simulação rodou! : ) \nPorém o Led queimou... : (")
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded",function(){
                 alert("O arduino é incrível! Mas deixe para usá-lo quando avançar um pouco mais nas lições básicas...")
                 }
                 else if (element.id == "botao" || element.id == "potenciometro"){
-                    alert("Controlar a corrente será incrível no futuro, mas por agora não...")
+                    alert("Controlar a corrente será incrível no futuro, mas no momento vamos focar em circuitos mais basicos")
                 }
                 else{
                     
