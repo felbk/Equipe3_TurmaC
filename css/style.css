@@ -342,3 +342,40 @@ section.conteudo{
 	flex-direction: column;
 	align-items: center;
 }
+#sanduiche > ul {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+	gap: 1.5rem;
+	width: 100%;
+	
+}
+#sanduiche > ul > li  {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+	width: 60%;
+	text-align: center;
+	border: 0.01rem solid black;
+	border-radius: 1rem;
+	
+}
+#sanduiche > ul > li > a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	
+	
+}
+#sanduiche > ul > li > a > p {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
