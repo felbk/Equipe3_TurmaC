@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/voltar.js"></script>
+    <script src="js/chat.js"></script>
+
 </head>
 
 <body>
@@ -28,14 +30,14 @@
     <main class="chat">
 
         <!--Tela de mensagens do chat-->
-        <canvas>
+        <div id="mensagens">
             <!-- VER SE DÁ erro VAZIO-->
-        </canvas>
+        </div>
 
         <!-- Barra de escrever e botao de enviar mensagem pro chat-->
         <nav class="pesquisa_chat"> <!--Mudar NAV pra outro COERENTE-->
-            <input type="search" name="Tire suas Dúvidas">
-            <button>Enviar</button>
+            <input type="text" name="Tire suas Dúvidas" id="inputmsg">
+            <button id="enviamsg">Enviar</button>
         </nav>
 
 
