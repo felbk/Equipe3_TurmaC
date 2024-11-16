@@ -28,11 +28,14 @@
     <!--Tela principal-->
     <main class="main-simulation">
         <!--Tela de interacao do ususario com javacript - prof Andre deixou -->
-        <canvas class="simulation-area">
-        </canvas>
+        <ul class="simulation-area">
+        </ul>
 
         <!--Botao de simular-->
-        <button> Simular </button>
+        <div class="buttonsSim">
+            <button id="btsimular"> Simular </button>
+            <button id="limpar"> limpar </button>
+        </div>
 
         <!--Aba de componenetes-->
         <section class="componentes">
@@ -54,13 +57,13 @@
                     <img src="img/arduino.png" alt="img Arduino">
                     <p>Arduino</p>
                 </li>
-                <li class="componente" draggable="true" id="arduino">
+                <li class="componente" draggable="true" id="led">
                     <img src="img/led.png" alt="img LED">
                     <p>LED</p>
                 </li>
                 <li class="componente" draggable="true" id="bateria">
                     <img src="img/bateria.png" alt="img Bateria">
-                    <p>Bateria</p>
+                    <p>Bateria 9v</p>
                 </li>
                 <li class="componente" draggable="true" id="resistor">
                     <img src="img/resistor.png" alt="img Resistor">

@@ -307,10 +307,19 @@ section.conteudo{
 .main-simulation{
 	display: flex;
 	flex-direction: column;
-	align-items: flex-end;
+	align-items: center;
 	width: 90%;
 	height: 80%;
 	margin: auto;
+}
+.buttonsSim > button{
+	margin-top: 0.6rem;
+	margin-bottom: 1rem;
+
+
+}
+#limpar{
+	display: none;
 }
 .simulation-area{
 	width: 100%;
@@ -319,7 +328,20 @@ section.conteudo{
 	margin: auto;
 	border: 0.1rem solid black;
 	border-radius: 1rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
 	
+	
+}
+.buttonsSim{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 100%;
+	gap: 0.5rem;
 }
 .componentes{
 	display: flex;
@@ -337,7 +359,7 @@ section.conteudo{
 	border: 0.1rem solid black;
 	border-radius: 1rem;
 }
-.componentes li{
+.componente{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
