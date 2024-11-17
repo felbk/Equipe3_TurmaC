@@ -375,6 +375,14 @@ section.conteudo h2{
 .pesquisa_chat> *{
 	height: 35px;
 }
+#inputmsg{
+	width: 60%;
+	border-radius: 0.5rem;
+}
+#enviamsg{
+	
+    border-radius: 0.5rem;
+}
 .main-simulation{
 	display: flex;
 	flex-direction: column;
