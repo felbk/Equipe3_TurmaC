@@ -288,10 +288,23 @@ section.conteudo h2{
 .questao{
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
 	justify-content: flex-start;
 	gap: 1rem;
 	margin: 0.5rem;
+	width: 98%;
+	
+}
+.V , .mA , .R {
+	display: inline;
+}
+.alternativas{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
 	
 }
 .exercicio a{
@@ -307,8 +320,10 @@ section.conteudo h2{
 	
 }
 .exercicio button{
-	margin-left: 2rem;
 	width: 4rem;
+	height: 2.5rem;
+	flex: 0 0 40%;
+	border-radius: 1rem;
 
 }
 .exercicio img{
