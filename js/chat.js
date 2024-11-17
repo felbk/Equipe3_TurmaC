@@ -9,7 +9,7 @@ function getresposta() {
     > ${userInput}</div>`;
     
     // Resposta do chatbot
-    if (userInput.includes('quem criou você') || userInput.includes('quem criou voce') || userInput.includes('quem fez voce') || userInput.includes('como voce foi criado') || userInput.includes('conte mais sobre voce') || userInput.includes('conte mais sobre você')){
+    if (userInput.includes('quem criou você') || (userInput.includes('criou') && (userInput.includes("lei") == false ))|| userInput.includes('quem fez voce') || userInput.includes('como voce foi criado') || userInput.includes('conte mais sobre voce') || userInput.includes('conte mais sobre você')){
         resposta.innerHTML = `<div class="bot"><h2>Bot:</h2>Eu fui criado por uma equipe do segundo semestre de engenharia do Insper em 2024.2 composta pelos seguintes membros: <h2>Camila Mendes</h2> <h2>Felipe Lambak</h2> <h2>João Benevides</h2> <h2>Matheus Amorim</h2>  <h2>Matheus Braido</h2> Ainda que eu tenha sido feito em um projeto de curto prazo, meus criadores se empenharam com o projeto e como consequência aprimoraram suas habilidades com HTML , CSS , JS e também aprimoraram sua comunicação com o usuário durante toda a disciplina de Codesign de Apps.
       </div>`;
 
