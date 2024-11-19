@@ -83,6 +83,18 @@ function geraQuestoes(){
  return respostas;
 }
 
+function alerta(mensagem){
+    let body = document.querySelector('body');
+    let alerta = document.createElement('div');
+    alerta.className = "alerta";
+    alerta.innerHTML = "<p>"+mensagem+"</p>";
+    body.appendChild(alerta);
+    setTimeout(() => {
+        alerta.remove()
+    }, 3000); 
+
+}
+
 function selecaoAlternativas(){
     let questoes = document.querySelectorAll('.questao');
     let selecionadas = Array();
@@ -141,11 +153,12 @@ document.addEventListener("DOMContentLoaded",function(){
                 }
 
             }
-            alert(`Você acertou ${acertos} questões. Questões erradas: ${erradas.join(", ")}`);
-            window.location.href = "aprender.html";
+            alerta(`Você acertou ${acertos} questões. Nº das questões erradas: ${erradas.join(", ")}`);
+            setTimeout(function(){window.location.href = "aprender.html";}, 4000)
+            
         }
         else {
-            alert("Por favor, responda todas as questões.");
+            alerta("Por favor, responda todas as questões.");
             
         }
 

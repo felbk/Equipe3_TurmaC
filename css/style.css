@@ -169,6 +169,28 @@ section.conteudo h2{
 	height: 100%;
 	
 }
+.alerta {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	height:auto;
+	position: absolute;
+	top: 1%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background-color:white;
+	border-radius: 1rem;
+	padding: 2rem 0.2rem;
+	border: 0.2rem solid ;
+
+
+}
+.alerta p{
+	width: 90%;
+	font-size: 1.2rem;
+}
 
 .topico{
 	background-color: var(--amarelo);
