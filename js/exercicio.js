@@ -83,8 +83,66 @@ function geraQuestoes(){
  return respostas;
 }
 
+function selecaoAlternativas(){
+    let questoes = document.querySelectorAll('.questao');
+    let selecionadas = Array();
+    questoes.forEach(questao => {
+        alternativas = questao.querySelectorAll(".alternativas > button");
+        var atual = null;
+        alternativas.forEach(alternativa => {
+            alternativa.addEventListener("click", function(){
+
+                if (alternativa.className == "selecionada"){
+                    alternativa.className = ""
+                    atual = null
+                } else if(atual == null) {
+                    alternativa.className = "selecionada";
+                    atual = alternativa;
+                }
+                else{
+                    atual.className = "";
+                    alternativa.className = "selecionada";
+                    atual = alternativa;
+
+                }
+               
+            });
+        })
+    })
+    
+}
+
 
 document.addEventListener("DOMContentLoaded",function(){
+    let questoes = document.querySelectorAll('.questao');
     corretas = geraQuestoes();
     console.log(corretas);
+    enviar = document.querySelector("#enviarResp");
+    selecaoAlternativas();
+    enviar.addEventListener("click", function (){
+        
+        alternativas = document.querySelectorAll(".alternativas > button");
+        let selecionadas = Array();
+        alternativas.forEach(alternativa => {
+            if (alternativa.className == "selecionada"){
+                selecionadas.push((alternativa.innerHTML.substring(0,alternativa.innerHTML.length -1)));
+            }
+        });
+        
+        if (selecionadas.length == questoes.length){
+            let acertos = 0;
+            for (let i = 0; i < selecionadas.length;i++){
+                if (selecionadas[i] == corretas[i]){
+                    acertos++;
+                }
+                
+            }
+        }
+        else {
+            alert("Por favor, responda todas as questões.");
+            
+        }
+
+    });
+
 });

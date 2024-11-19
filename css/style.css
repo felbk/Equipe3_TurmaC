@@ -193,15 +193,13 @@ section.conteudo h2{
 }
 .topico>ul{
 	display: none;
-}
-.topico:hover>ul{
-	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	width: 90%;
 	margin: auto;
 }
+
 .img-aula{
 
 	display: flex;
@@ -336,6 +334,9 @@ section.conteudo h2{
 	margin-bottom: 0.3rem;
 	margin-top: 0.01rem;
 
+}
+.selecionada{
+	background-color: var(--amarelo);
 }
 #mensagens div{
 	width: 90%;
