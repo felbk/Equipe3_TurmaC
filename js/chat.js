@@ -14,13 +14,13 @@ function getresposta() {
       </div>`;
 
     }
-    else if (userInput.includes('primeira lei de ohm') || userInput.includes('ohm') || userInput.includes('primeira lei')) {
+    else if (userInput.includes('primeira lei de ohm') || userInput.includes('ohm') || userInput.includes('primeira lei') || (userInput.includes('conceito') && ((userInput.includes("tensão")||userInput.includes("corrente") || userInput.includes("resistência")) == false ))) {
         resposta.innerHTML = `<div class="bot"><h2
         >EDUINO:</h2
         > A primeira lei de Ohm afirma que a corrente (I) que passa por um condutor é diretamente proporcional à tensão (V) aplicada e inversamente proporcional à resistência (R). A fórmula é: <br> <h2
         >V = I * R</h2
         ></div>`;
-    } else if (userInput.includes('como calcular') || userInput.includes('calcular')) {
+    } else if (userInput.includes('como calcular') || userInput.includes('calcular')  || userInput.includes('formulas')|| userInput.includes('fórmulas')) {
         resposta.innerHTML = `<div class="bot"><h2
         >EDUINO:</h2
         > Para calcular a tensão (V), use a fórmula: <h2
