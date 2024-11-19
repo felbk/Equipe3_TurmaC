@@ -91,7 +91,7 @@ function alerta(mensagem){
     body.appendChild(alerta);
     setTimeout(() => {
         alerta.remove()
-    }, 3000); 
+    }, 4500); 
 
 }
 
@@ -153,8 +153,13 @@ document.addEventListener("DOMContentLoaded",function(){
                 }
 
             }
-            alerta(`Você acertou ${acertos} questões. Nº das questões erradas: ${erradas.join(", ")}`);
-            setTimeout(function(){window.location.href = "aprender.html";}, 4000)
+            if (erradas.length > 0){
+            alerta(`Você acertou ${acertos} questões. Quais questões errou? ${erradas.join(", ")}`);
+            } else{
+                alerta(`Você acertou todas questões!. Parabens!`);
+            }
+
+            setTimeout(function(){window.location.href = "aprender.html";}, 5000)
             
         }
         else {
