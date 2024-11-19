@@ -15,8 +15,22 @@ function alerta(mensagem){
     alerta.innerHTML = "<p>"+mensagem+"</p>";
     body.appendChild(alerta);
     setTimeout(() => {
-        alerta.remove()
+        alerta.remove();
     }, 3000); 
+
+}
+
+function simulação(dirImagem){
+    let body = document.querySelector('body');
+    let alerta = document.createElement('div');
+    alerta.className = "alerta";
+    img = document.createElement("img")
+    img.src= dirImagem
+    alerta.appendChild(img)
+    body.appendChild(alerta);
+    setTimeout(() => {
+        alerta.remove();
+    }, 8000); 
 
 }
 
@@ -36,12 +50,18 @@ function analisaSimulacao(ids = Array){
     }
     else if(ids.length == 4){
         //Rodando simulação com led e resistor, inserir imagem
-        alerta ("A simulação rodou e o led não queimou! : ) \nConfira os valores de Tensão, Corrente e Resistência na imagem da simulação!")
+        alerta ("A simulação rodou e o led não queimou! : ) \nConfira os valores de Tensão, Corrente e Resistência na imagem da simulação!");
+        setTimeout(function(){
+            simulação("img/comled.jpeg");
+        },3000);
 
     }
     else{
         //Rodando simulação com resistor, inserir imagem
-        alerta ("A simulação rodou! : ) \nConfira os valores de Tensão, Corrente e Resistência na imagem da simulação!")
+        alerta ("A simulação rodou! : ) \nConfira os valores de Tensão, Corrente e Resistência na imagem da simulação!");
+        setTimeout(function(){
+            simulação("img/semled.jpeg");
+        },3000);
     }
 }
 
