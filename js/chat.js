@@ -45,7 +45,7 @@ function getresposta() {
    
     }
     else if(userInput.includes('ola') || userInput.includes('quem e voce') || userInput.includes('quem é você') || userInput.includes('oi') || userInput.includes('olá') || userInput.includes("salve") ){
-        resposta.innerHTML = `<div class="bot"><h2>EDUINO:</h2>Olá eu sou o EDUINO Electronics (uma abreviação de EDUcational INterface Of electronics) mas pode me chamar só de EDUINO mesmo, se quiser posso até contar mais sobre mim, mas estou aqui para ajudá-lo com o seu primeiro conteúdo, a primeira lei de ohm, me faça perguntas simples sobre esse tópico que irei responde-lo, ainda estou na minha primeira versão, melhoras virão em breve, vamos aprender mais juntos?!
+        resposta.innerHTML = `<div class="bot"><h2>EDUINO:</h2>Olá eu sou o EDUINO Tech (uma abreviação de EDUcational INterface Of Technology) mas pode me chamar só de EDUINO mesmo, se quiser posso até contar mais sobre mim, mas estou aqui para ajudá-lo com o seu primeiro conteúdo, a primeira lei de ohm, me faça perguntas simples sobre esse tópico que irei responde-lo, ainda estou na minha primeira versão, melhoras virão em breve, vamos aprender mais juntos?!
       </div>`;
 
     }
