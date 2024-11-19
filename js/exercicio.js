@@ -131,12 +131,18 @@ document.addEventListener("DOMContentLoaded",function(){
         
         if (selecionadas.length == questoes.length){
             let acertos = 0;
+            let erradas = Array();
             for (let i = 0; i < selecionadas.length;i++){
                 if (selecionadas[i] == corretas[i]){
                     acertos++;
+                    
+                }else{
+                    erradas.push(i+1);
                 }
-                
+
             }
+            alert(`Você acertou ${acertos} questões. Questões erradas: ${erradas.join(", ")}`);
+            window.location.href = "aprender.html";
         }
         else {
             alert("Por favor, responda todas as questões.");
