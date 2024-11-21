@@ -158,6 +158,9 @@ document.addEventListener("DOMContentLoaded",function(){
             } else{
                 alerta(`Você acertou todas questões!. Parabens!`);
             }
+            let temas = JSON.parse(sessionStorage.getItem('temas'))
+            temas["Leis de Ohm"] = 1
+            sessionStorage.setItem("temas" , JSON.stringify(temas))
 
             setTimeout(function(){window.location.href = "aprender.html";}, 5000)
             
