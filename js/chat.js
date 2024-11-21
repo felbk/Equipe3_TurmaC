@@ -14,6 +14,26 @@ function getresposta() {
       </div>`;
 
     }
+    else if(userInput.includes('video') || userInput.includes('vídeo')  ){
+        resposta.innerHTML = `<div class="bot"><h2>EDUINO:</h2>Para acessar os videos, vá para a página principal ou pesquise por Menu inicial clicando na Lupa no menu superior...
+      </div>`;
+
+    }
+    else if(userInput.includes('materia') || userInput.includes('conteudos')  || userInput.includes('teoria') ){
+        resposta.innerHTML = `<div class="bot"><h2>EDUINO:</h2>Para acessar os conteudos, vá para a página aprender ou pesquise por conteudos clicando na Lupa no menu superior...
+      </div>`;
+
+    }
+    else if(userInput.includes('quest') || userInput.includes('exer') || userInput.includes('atividade') ){
+        resposta.innerHTML = `<div class="bot"><h2>EDUINO:</h2>Para acessar os exercicios sobre primeira Lei de Ohm, vá para a página aprender, acesse Primeira Lei de Ohm e depois entre em exercícios ou pesquise por questões clicando na Lupa no menu superior...
+      </div>`;
+
+    }
+    else if(userInput.includes('simu') ||userInput.includes('circuit')  ){
+        resposta.innerHTML = `<div class="bot"><h2>EDUINO:</h2>Para simular um circuito, vá para a página simular, insira os componentes e inicie a simulação ou pesquise por simulação de circuito clicando na Lupa no menu superior...
+      </div>`;
+
+    }
     else if (userInput.includes('primeira lei de ohm') || userInput.includes('ohm') || userInput.includes('primeira lei') || (userInput.includes('conceito') && ((userInput.includes("tensão")||userInput.includes("corrente") || userInput.includes("resistência")) == false ))) {
         resposta.innerHTML = `<div class="bot"><h2
         >EDUINO:</h2
@@ -45,10 +65,11 @@ function getresposta() {
    
     }
     else if(userInput.includes('ola') || userInput.includes('quem e voce') || userInput.includes('quem é você') || userInput.includes('oi') || userInput.includes('olá') || userInput.includes("salve") ){
-        resposta.innerHTML = `<div class="bot"><h2>EDUINO:</h2>Olá eu sou o EDUINO Tech (uma abreviação de EDUcational INterface Of Technology) mas pode me chamar só de EDUINO mesmo, se quiser posso até contar mais sobre mim, mas estou aqui para ajudá-lo com o seu primeiro conteúdo, a primeira lei de ohm, me faça perguntas simples sobre esse tópico que irei responde-lo, ainda estou na minha primeira versão, melhoras virão em breve, vamos aprender mais juntos?!
+        resposta.innerHTML = `<div class="bot"><h2>EDUINO:</h2>Olá eu sou o EDUINO Tech (uma abreviação de EDUcational INterface Of Technology) mas pode me chamar só de EDUINO mesmo, se quiser posso até contar mais sobre mim, mas estou aqui para ajudá-lo com o seu primeiro conteúdo, a primeira lei de ohm, me faça perguntas simples sobre esse tópico que irei responde-lo, também posso ajudá-lo a encontrar algo no app, ainda estou na minha primeira versão, melhoras virão em breve, vamos aprender mais juntos?!
       </div>`;
 
     }
+    
     else {
         resposta.innerHTML = `<div class="bot"><h2
         >EDUINO:</h2

@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded",function(){
             else if(pesquisa.includes("chat") || pesquisa.includes("conversa") || pesquisa.includes("eduino")|| pesquisa.includes("bot")|| pesquisa.includes("duvida")  ){
                 window.location.href = "chat.html"
             }
-            else if(pesquisa.includes("materia") || pesquisa.includes("conteudo") || pesquisa.includes("aprend")|| pesquisa.includes("ohm")|| pesquisa.includes("teoria") || pesquisa.includes("licao")|| pesquisa.includes("quest")  ){
+            else if(pesquisa.includes("materia") || pesquisa.includes("conteudo") || pesquisa.includes("aprend")|| pesquisa.includes("ohm")|| pesquisa.includes("teoria") || pesquisa.includes("licao")|| pesquisa.includes("quest") || pesquisa.includes("exer") || pesquisa.includes("atividade") ){
                 window.location.href = "aprender.html"
             }
             else if(pesquisa.includes("home") || pesquisa.includes("menu") || pesquisa.includes("inici")|| pesquisa.includes("video")|| pesquisa.includes("principal") || pesquisa.includes("explor") ){
