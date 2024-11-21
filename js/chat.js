@@ -66,7 +66,7 @@ function getresposta() {
   }
 
   document.addEventListener('DOMContentLoaded', function(){
-    document.querySelector('#inputmsg').value = 'Diga oi ao EDUINO!';
+    document.querySelector('#inputmsg').placeholder = 'Diga oi ao EDUINO!';
     let enviar = document.querySelector("#enviamsg");
     enviar.addEventListener("click", function (){
         getresposta();
