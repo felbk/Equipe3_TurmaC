@@ -51,8 +51,8 @@ document.addEventListener("DOMContentLoaded",function(){
 menuSand()
 
 if (sessionStorage.getItem("temas") != null){
-    let temas = JSON.parse(sessionStorage.getItem('temas'))
-    let feitos = 0
+    let temas = JSON.parse(sessionStorage.getItem('temas'));
+    let feitos = 0;
     let total = Object.keys(temas).length;
     for (let tema of  Object.values(temas)){
         if (tema==1){
@@ -60,12 +60,12 @@ if (sessionStorage.getItem("temas") != null){
 
         }
     }
-    console.log(feitos)
-    console.log(total)
-    progresso = document.querySelector("#Progress")
-    let pg = Math.round((feitos/total)*100)
-    progresso.innerHTML = pg+"%"
-    fundoPercentual(pg)
+    console.log(feitos);
+    console.log(total);
+    progresso = document.querySelector("#Progress");
+    let pg = Math.round((feitos/total)*100);
+    progresso.innerHTML = pg+"%";
+    fundoPercentual(pg);
 }
 
 })

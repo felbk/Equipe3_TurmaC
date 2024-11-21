@@ -40,11 +40,11 @@ document.addEventListener("DOMContentLoaded",function(){
             else if(pesquisa.includes("materia") || pesquisa.includes("conteudo") || pesquisa.includes("aprend")|| pesquisa.includes("ohm")|| pesquisa.includes("teoria") || pesquisa.includes("licao")|| pesquisa.includes("quest")  ){
                 window.location.href = "aprender.html"
             }
-            else if(pesquisa.includes("home") || pesquisa.includes("menu") || pesquisa.includes("inici")|| pesquisa.includes("video")|| pesquisa.includes("principal") || pesquisa.includes("explorar") ){
+            else if(pesquisa.includes("home") || pesquisa.includes("menu") || pesquisa.includes("inici")|| pesquisa.includes("video")|| pesquisa.includes("principal") || pesquisa.includes("explor") ){
                 window.location.href = "index.html"
             }
             else if(pesquisa.includes("dado") || pesquisa.includes("progresso") || pesquisa.includes("avanco")|| pesquisa.includes("estat")|| pesquisa.includes("result") ){
-                window.location.href = "index.html"
+                window.location.href = "dados.html"
             }
             else if (pesquisa != ""){
                 alerta("Não encontramos uma página relacionada com a pesquisa... Tente ('simular um circuito' , 'conteudo', 'chat' e outras buscas resumidas )")
